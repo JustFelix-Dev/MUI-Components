@@ -19,6 +19,7 @@ import { MuiRadioButton } from './components/MuiRadioButton';
 import { MuiRating } from './components/MuiRating';
 import MuiSpeedDial from './components/MuiSpeedDial';
 import { MuiSwitch } from './components/MuiSwitch';
+import MuiTable from './components/MuiTable';
 import { MuiTextField } from './components/MuiTextField';
 import MuiToolTip from './components/MuiToolTip';
 import MuiTypography from './components/MuiTypography';
@@ -52,6 +53,7 @@ function App() {
       <MuiList/>
       <MuiChip/>
       <MuiToolTip/>
+      <MuiTable/>
     </div>
   );
 }
