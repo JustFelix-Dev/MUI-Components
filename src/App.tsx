@@ -1,5 +1,6 @@
 import './App.css';
 import MuiAccordion from './components/MuiAccordion';
+import MuiAlert from './components/MuiAlert';
 import { MuiAutoComplete } from './components/MuiAutoComplete';
 import MuiAvatar from './components/MuiAvatar';
 import MuiBadge from './components/MuiBadge';
@@ -54,6 +55,7 @@ function App() {
       <MuiChip/>
       <MuiToolTip/>
       <MuiTable/>
+      <MuiAlert/>
     </div>
   );
 }
