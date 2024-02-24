@@ -12,6 +12,7 @@ import MuiLink from './components/MuiLink';
 import MuiNavbar from './components/MuiNavbar';
 import { MuiRadioButton } from './components/MuiRadioButton';
 import { MuiRating } from './components/MuiRating';
+import MuiSpeedDial from './components/MuiSpeedDial';
 import { MuiSwitch } from './components/MuiSwitch';
 import { MuiTextField } from './components/MuiTextField';
 import MuiTypography from './components/MuiTypography';
@@ -38,6 +39,7 @@ function App() {
       <MuiLink/>
       <MuiBreadcrumbs/>
       <MuiDrawer/>
+      <MuiSpeedDial/>
     </div>
   );
 }
