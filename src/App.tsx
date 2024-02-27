@@ -28,6 +28,7 @@ import { MuiSwitch } from './components/MuiSwitch';
 import MuiTab from './components/MuiTab';
 import MuiTable from './components/MuiTable';
 import { MuiTextField } from './components/MuiTextField';
+import { MuiTimeLine } from './components/MuiTimeLine';
 import MuiToolTip from './components/MuiToolTip';
 import MuiTypography from './components/MuiTypography';
 import { Select } from './components/Select';
@@ -70,6 +71,7 @@ function App() {
       {/* MUI-LAB */}
       <MuiLoadingBtn/>
       <MuiTab/>
+      <MuiTimeLine/>
     </div>
   );
 }
