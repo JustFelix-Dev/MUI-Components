@@ -25,6 +25,7 @@ import MuiSkeleton from './components/MuiSkeleton';
 import MuiSnackbar from './components/MuiSnackbar';
 import MuiSpeedDial from './components/MuiSpeedDial';
 import { MuiSwitch } from './components/MuiSwitch';
+import MuiTab from './components/MuiTab';
 import MuiTable from './components/MuiTable';
 import { MuiTextField } from './components/MuiTextField';
 import MuiToolTip from './components/MuiToolTip';
@@ -68,6 +69,7 @@ function App() {
       <MuiSkeleton/>
       {/* MUI-LAB */}
       <MuiLoadingBtn/>
+      <MuiTab/>
     </div>
   );
 }
