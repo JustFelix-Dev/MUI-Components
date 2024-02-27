@@ -16,6 +16,7 @@ import MuiImageList from './components/MuiImageList';
 import MuiLayout from './components/MuiLayout';
 import MuiLink from './components/MuiLink';
 import MuiList from './components/MuiList';
+import MuiLoadingBtn from './components/MuiLoadingBtn';
 import MuiNavbar from './components/MuiNavbar';
 import MuiProgress from './components/MuiProgress';
 import { MuiRadioButton } from './components/MuiRadioButton';
@@ -29,6 +30,7 @@ import { MuiTextField } from './components/MuiTextField';
 import MuiToolTip from './components/MuiToolTip';
 import MuiTypography from './components/MuiTypography';
 import { Select } from './components/Select';
+
 
 function App() {
   return (
@@ -64,6 +66,8 @@ function App() {
       <MuiDialog/>
       <MuiProgress/>
       <MuiSkeleton/>
+      {/* MUI-LAB */}
+      <MuiLoadingBtn/>
     </div>
   );
 }
