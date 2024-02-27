@@ -10,6 +10,7 @@ import MuiButton from './components/MuiButton';
 import MuiCard from './components/MuiCard';
 import { MuiCheckbox } from './components/MuiCheckbox';
 import MuiChip from './components/MuiChip';
+import MuiDialog from './components/MuiDialog';
 import MuiDrawer from './components/MuiDrawer';
 import MuiImageList from './components/MuiImageList';
 import MuiLayout from './components/MuiLayout';
@@ -58,6 +59,7 @@ function App() {
       <MuiTable/>
       <MuiAlert/>
       <MuiSnackbar/>
+      <MuiDialog/>
     </div>
   );
 }
